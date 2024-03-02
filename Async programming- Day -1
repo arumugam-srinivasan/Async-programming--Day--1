@@ -1,0 +1,84 @@
+Callback Hell:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>call back</title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div id="block">
+
+<h1 id="display"></h1>
+<script src="script.js"></script>
+</div>
+
+
+</body>
+</html>
+
+
+js:
+
+setTimeout (() => {
+  document.getElementById("display").innerText = "10"; Callback();
+  setTimeout(() => {
+  document.getElementById("display").innerText = "9";Callback();
+  setTimeout (() => {
+  document.getElementById("display").innerText = "8";Callback();
+  setTimeout(() => {
+  document.getElementById("display") .innerText = "7";Callback();
+  setTimeout(() => {
+  document.getElementById("display").innerText = "6";Callback();
+  setTimeout(() => {
+  document.getElementById("display").innerText = "5";Callback();
+  setTimeout(() => {
+  document.getElementById("display").innerText = "4";Callback();
+  setTimeout(() => {
+  document.getElementById("display").innerText = "3";Callback();
+  setTimeout(() => {
+  document.getElementById("display").innerText ="2";Callback();
+  setTimeout(() => {
+  document.getElementById("display").innerText ="1";Callback();
+  setTimeout(() => {
+  document.getElementById("display").innerText
+  "Happy Independence day";
+  }, 1000);
+  }, 1000);
+  }, 1000);
+  }, 1000);
+  }, 1000);
+  }, 1000);
+  }, 1000);
+  }, 1000);
+  }, 1000);
+  }, 1000);
+  }, 1000);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
